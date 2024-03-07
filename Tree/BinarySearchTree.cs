@@ -85,7 +85,6 @@
                         {
                             parentNode = parentNode.LeftBanch;
                         }
-                        
                         current.Value = parentNode.Value;
 
                         Delete(parentNode.Value, current.RightBanch);
